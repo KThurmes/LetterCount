@@ -1,3 +1,9 @@
+/********************************************************************* 
+** Title: Lab 2
+** Author: Katheen Thurmes
+** Date: 12 Oct., 2019
+*********************************************************************/ 
+
 #include "count_letters.hpp"
 #include <fstream>
 #include <iostream>
