@@ -5,7 +5,6 @@
 CXX = g++
 CXXFLAGS = -std=c++11
 CXXFLAGS += -Wall
-CXXFLAGS += -pedantic-errors
 CXXFLAGS += -g
 OBJS = main.o output_letters.o count_letters.o
 SRCS = *.cpp
