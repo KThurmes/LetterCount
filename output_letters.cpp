@@ -5,6 +5,7 @@
 using std::cin;
 using std::cout;
 using std::string;
+using std::endl;
 
 void output_letters(std::ofstream &stream, int *letterCount)
 {
@@ -14,12 +15,11 @@ void output_letters(std::ofstream &stream, int *letterCount)
     cin >> fileName;
 
     fileName = fileName + ".txt";
+
     stream.open(fileName.c_str());
 
     for (int i = 1; i <= 26; i++)
     {
         stream << (char)(i + 96) << ": " << letterCount[i] << "\n";
     }
-
-    stream.close();
 }

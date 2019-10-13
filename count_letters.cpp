@@ -12,8 +12,6 @@ using std::string;
 void count_letters(ifstream &theStream, int *letterCount)
 {
     string paragraph;
-    while (!(theStream.eof()))
-    {
         if (getline(theStream, paragraph))
         {
             for (int i = 0; i < paragraph.size(); i++)
@@ -33,5 +31,5 @@ void count_letters(ifstream &theStream, int *letterCount)
                 }
             }
         }
-    }
+    
 }
